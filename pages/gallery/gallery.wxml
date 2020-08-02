@@ -1,7 +1,17 @@
 <!--pages/gallery/gallery.wxml-->
 <view class="container">
-   <navigator url="/pages/home/home" open-type="redirect" hover-class="other-navigator-hover">传达室</navigator>
+   <!-- <navigator url="/pages/home/home" open-type="redirect" hover-class="other-navigator-hover">传达室</navigator>
    <navigator url="/pages/gallery/gallery" open-type="redirect" hover-class="other-navigator-hover">图书馆</navigator>
    <navigator url="/pages/lab/lab" open-type="redirect" hover-class="other-navigator-hover">实验室</navigator>
-   <navigator url="/pages/profiles/profiles" open-type="redirect" hover-class="other-navigator-hover">档案处</navigator>
+   <navigator url="/pages/profiles/profiles" open-type="redirect" hover-class="other-navigator-hover">档案处</navigator> -->
+   <view class="news-list-box">
+      <view class="news-list-head">最新资讯</view>
+      <view class="news-gallery-list news-rightarray" wx:for="{{galleryList}}" wx:key="id">
+         <image class="gallery-img" src="{{item.coverPath}}"></image>
+         <view class="gallery-box gallery-left gallery-right">
+            <text class="gallery-name">{{item.title}}</text>
+            <text class="gallery-detail">{{item.description}}</text>
+         </view>
+      </view>
+   </view>
 </view>

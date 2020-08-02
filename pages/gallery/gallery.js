@@ -1,11 +1,27 @@
 // pages/gallery/gallery.js
+
+
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+    galleryList: [
+      {
+        id:0,
+        coverPath:'/images/icon1.jpg',
+        title: '时装封面抢先看',
+        description:'时装封面抢先看'
+        
+      },
+      {
+        id:1,
+        coverPath:'/images/icon1.jpg',
+        title: 'GUCCI时尚大片',
+        description:'GUCCI时尚大片'
+      }
+    ]
   },
 
   /**

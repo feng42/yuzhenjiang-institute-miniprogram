@@ -1,1 +1,26 @@
 /* pages/home/home.wxss */
+
+.page-body {
+  display: flex;
+  height: 600px;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg{
+  position:fixed;
+  display: flex;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background-size:cover;
+  z-index:-1;
+  align-content: center;
+  justify-content: center;
+}
+  
+.bg image{
+  width : 100%;
+  /* height : 400rpx; */
+}

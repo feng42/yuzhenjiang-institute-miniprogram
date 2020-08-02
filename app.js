@@ -1,10 +1,10 @@
 //app.js
 App({
   onLaunch: function () {
-    let timer = setTimeout(() => {
-      clearTimeout(timer)
-      this.direct()
-    }, 2000)
+    // let timer = setTimeout(() => {
+    //   clearTimeout(timer)
+    //   this.direct()
+    // }, 2000)
 
   //   // 展示本地存储能力
   //   var logs = wx.getStorageSync('logs') || []
@@ -38,11 +38,11 @@ App({
   //     }
   //   })
   },
-  direct: function(){
-    wx.redirectTo({
-      url: '/pages/home/home',
-    })
-  },
+  // direct: function(){
+  //   wx.redirectTo({
+  //     url: '/pages/home/home',
+  //   })
+  // },
   globalData: {
     userInfo: null
   }

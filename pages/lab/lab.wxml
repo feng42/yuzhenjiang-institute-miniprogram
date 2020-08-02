@@ -1,7 +1,17 @@
 <!--pages/lab/lab.wxml-->
 <view class="container">
-   <navigator url="/pages/home/home" open-type="redirect" hover-class="other-navigator-hover">传达室</navigator>
-   <navigator url="/pages/gallery/gallery" open-type="redirect" hover-class="other-navigator-hover">图书馆</navigator>
-   <navigator url="/pages/lab/lab" open-type="redirect" hover-class="other-navigator-hover">实验室</navigator>
-   <navigator url="/pages/profiles/profiles" open-type="redirect" hover-class="other-navigator-hover">档案处</navigator>
+  <view class="page-title">
+   这里需要改成一个对话框的形式，后续接入对话机器人
+   输入文字->发送->对话框显示问答记录
+   \n
+   \n
+   </view>
+   <view class="page-body">
+      <view class="page-section page-section-spacing">
+         <view class="text-box" scroll-y="true" scroll-top="{{scrollTop}}">
+            <text>{{text}}</text>
+         </view>
+         <button disabled="{{!canAdd}}" bindtap="add">发送</button>
+      </view>
+   </view>
 </view>
