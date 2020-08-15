@@ -11,15 +11,16 @@ Page({
       {
         id:0,
         coverPath:'/images/icon1.jpg',
-        title: '时装封面抢先看',
-        description:'时装封面抢先看'
-        
+        title: '我要的真实，是什么？',
+        description:'#兰蔻第二代小黑瓶##够强大 才够真实#',
+        link:'https://m.weibo.cn/2431095307/4537898240581873'
       },
       {
         id:1,
         coverPath:'/images/icon1.jpg',
-        title: 'GUCCI时尚大片',
-        description:'GUCCI时尚大片'
+        title: '七夕节快到了 最好的你 值得最特别的',
+        description:'#古驰七夕情人节',
+        link:'https://m.weibo.cn/2431095307/4536796395865634'
       }
     ]
   },

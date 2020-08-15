@@ -1,0 +1,42 @@
+<!--pages/lab/chatbot/chatbot.wxml-->
+<view class="container">
+   <view class="page-title">
+   上中下三个栏目
+   最上面是姜姜头像
+   </view>
+
+   <view class="page-section section1">
+      
+      <view class="weui-cells__title">设置自己的id:（后面会改为使用用户信息生成userid）</view>
+      <view class="weui-cells weui-cells_after-title">
+         <view class="weui-cell weui-cell_input">
+            <input class="weui-input" maxlength="10" bindinput="bindSessionId" placeholder="4396"/>
+         </view>          
+      </view>
+   </view>
+
+   <view class="page-section section1">
+      
+      <view class="weui-cells__title">请输入对话:{{chatText}}</view>
+      <view class="weui-cells weui-cells_after-title">
+         <view class="weui-cell weui-cell_input">
+            <input class="weui-input" auto-focus maxlength="10" bindinput="bindKeyInput" placeholder="早上好姜姜"/>
+         </view>          
+      </view>
+   </view>
+
+   <view class="page-section section2">
+      <text>姜姜：</text>
+      <block wx:if="{{hasResponse}}">
+         
+         <text>{{chatResponse}}</text>
+      </block>
+   </view>
+
+   <view class="page-section section3">
+      <button style="margin: 30rpx 0;margin-left: auto;margin-right: auto;" type="primary" bindtap="renderChat">对话</button>
+   </view>
+
+
+
+</view>

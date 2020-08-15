@@ -4,7 +4,7 @@
 		"ignore": []
 	},
 	"setting": {
-		"urlCheck": true,
+		"urlCheck": false,
 		"es6": true,
 		"enhance": false,
 		"postcss": true,
@@ -32,7 +32,6 @@
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.12.0",
-
 	"projectname": "yuzhenjiang-institute-minigram",
 	"debugOptions": {
 		"hidedInDevtools": []
@@ -41,6 +40,8 @@
 	"isGameTourist": false,
 	"simulatorType": "wechat",
 	"simulatorPluginLibVersion": {},
+	"cloudfunctionRoot": "cloudfunction/",
+	"cloudfunctionTemplateRoot": "cloudfunctionTemplate",
 	"condition": {
 		"search": {
 			"current": -1,

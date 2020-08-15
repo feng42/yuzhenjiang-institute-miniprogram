@@ -5,7 +5,8 @@
     "pages/logs/logs",
     "pages/lab/lab",
     "pages/profiles/profiles",
-    "pages/gallery/gallery"
+    "pages/gallery/gallery",
+    "pages/lab/chatbot/chatbot"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -13,31 +14,31 @@
     "navigationBarTitleText": "姜茶研究院",
     "navigationBarTextStyle": "black"
   },
-  "tabBar":{
-    "list":[
+  "tabBar": {
+    "list": [
       {
-        "selectedIconPath":"images/home.png",
-        "iconPath":"images/home.png",
-        "pagePath":"pages/home/home",
-        "text":"传达室"
+        "selectedIconPath": "images/home.png",
+        "iconPath": "images/home.png",
+        "pagePath": "pages/home/home",
+        "text": "传达室"
       },
       {
-        "selectedIconPath":"images/gallery.png",
-        "iconPath":"images/gallery.png",
-        "pagePath":"pages/gallery/gallery",
-        "text":"展览室"
+        "selectedIconPath": "images/gallery.png",
+        "iconPath": "images/gallery.png",
+        "pagePath": "pages/gallery/gallery",
+        "text": "展览室"
       },
       {
-        "selectedIconPath":"images/lab.png",
-        "iconPath":"images/lab.png",
-        "pagePath":"pages/lab/lab",
-        "text":"实验室"
+        "selectedIconPath": "images/lab.png",
+        "iconPath": "images/lab.png",
+        "pagePath": "pages/lab/chatbot/chatbot",
+        "text": "实验室"
       },
       {
-        "selectedIconPath":"images/profiles.png",
-        "iconPath":"images/profiles.png",
-        "pagePath":"pages/profiles/profiles",
-        "text":"档案馆"
+        "selectedIconPath": "images/profiles.png",
+        "iconPath": "images/profiles.png",
+        "pagePath": "pages/profiles/profiles",
+        "text": "档案馆"
       }
     ]
   },

@@ -1,19 +1,19 @@
 <!--pages/home/home.wxml-->
 <!-- <text>pages/home/home.wxml</text> -->
 <view class="container">
-   <view class="page-title">
+   <!-- <view class="page-title">
    这里放标题，换成一个艺术字
-   </view>
+   </view> -->
   <view class="page-body">
-      <view class="page-section page-section-spacing">
+      <!-- <view class="page-section page-section-spacing">
          <view class="text-box" scroll-y="true" scroll-top="{{scrollTop}}">
             <text>{{text}}</text>
          </view>
          <button disabled="{{!canAdd}}" bindtap="add">看新料</button>
          <button disabled="{{!canRemove}}" bindtap="remove">藏起来</button>
-      </view>
+      </view> -->
    </view>
 </view>
 <view class="bg" style="opacity:{{1}}">
-   <image class="bg-image" mode="widthFix" src="/images/bg.jpg"></image>
+   <image class="bg-image" mode="widthFix" src="/images/cover.jpg"></image>
 </view>

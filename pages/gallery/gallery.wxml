@@ -7,11 +7,14 @@
    <view class="news-list-box">
       <view class="news-list-head">最新资讯</view>
       <view class="news-gallery-list news-rightarray" wx:for="{{galleryList}}" wx:key="id">
-         <image class="gallery-img" src="{{item.coverPath}}"></image>
+         <!-- <navigator url="{{item.url}"> -->
+         <navigator url='{{item.link}}'><image class="gallery-img" src="{{item.coverPath}}" url></image></navigator>
+         
          <view class="gallery-box gallery-left gallery-right">
-            <text class="gallery-name">{{item.title}}</text>
+            <navigator url='{{item.link}}'><text class="gallery-name">{{item.title}}</text></navigator>
             <text class="gallery-detail">{{item.description}}</text>
          </view>
+         <!-- </navigator> -->
       </view>
    </view>
 </view>

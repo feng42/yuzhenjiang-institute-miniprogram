@@ -9,12 +9,17 @@
 }
 .gallery-img{
   width: 150rpx;
-  height: 90rpx;
+  height: 150rpx;
   flex: 0 0 auto;
+  padding-top: 10px;
+  padding-bottom: 5px;
 }
 .gallery-box{
+  width: 450rpx;
   height: 90rpx;
   overflow: hidden;
+  padding-top: 10px;
+  padding-bottom: 5px;
 }
 .gallery-name{
   display: block;
